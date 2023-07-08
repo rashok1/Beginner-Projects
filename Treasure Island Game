@@ -1,0 +1,95 @@
+print("Welcome to Treasure Island!")
+print("Your mission is to find the treasure. Without Getting Killed.") 
+swim = input(str("The sky is clear blue. You are stuck in the middle of the sea with the burning sun. You have the map for the treasure\n You see a Pirate Ship approaching you to your left, while there is a weak paddle boat few feet out to your right. Which way do you chose to swim? \'Left\' or Right?")).lower()
+if swim == "left":
+    print(" You swam to the Pirate Ship. They rescue you and bring you aboard the ship. \n Oh no! They're are searching for the same treasure. Knowing this, the pirates tie you up and steal the map from you.")
+    sword = input(" The pirates reach the shore, and drag you along. You try your best to escape. You see one of the crew members has a sword. Do you try to take it?").lower()
+    if sword=="no":
+        print("The captain trips. The map falls from his pocket to your hands. \n You run, even with your hands tied.\n Phew! You escaped")
+        house=input("Your in the dense forest now. You see a sharp tree log as in the map. You cut your ropes with the tree.\n You're thirsty, you suddenly see a straw house, and a wood house. Which one do you go to? wood or straw? ").lower()
+        if house =="wood":
+            food =input(" There is water and a witch in the house. She is nice and gives you food and water. Do you eat it?").lower()
+            if food =="yes":
+                print("You Live! The witch thinks you have a pure heart, and tells you a secret. \n Find the secret door that goes to the tunnel. \n When you leave the hut you notice the straw hut bursting to flames.")
+                door = input("You see three doors appear before you. A gold, a brown, and blue. Which do you chose?").lower()
+                if door == "brown ":
+                    print("Good choice. You are on safe ground. You reached the treasure!!")
+                    print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+                elif door == "gold":
+                    print("Bad Choice. You reach the treasure, but are eaten by a Golden Dragon.\n Game Over.")
+                else:
+                    print("You fall into the sea again. You drowned.\n Game Over.")
+            else:
+                print("You starve from hunger and dehydration. You die.\n Game Over.")
+        else:
+            print("You walk into the straw house. The house catches on fire due the burning sun. You burn to death.\n Game Over.")
+    else:
+        print("The captain catches you trying to steal the sword. He gets angry and cuts off your head. Your dead.! \n Game Over.")
+        
+else:
+    boat =input(" You reach the boat! But the boat has a hole. Water is filling the boat fast.\n What do yo do? Jump OR stay in the boat?").lower()
+    if boat == "stay":
+        print(" A huge wave washes you ashore. You survive!")
+        house=input("Your in the dense forest now. You see a sharp tree log as in the map. You cut your ropes with the tree.\n You're thirsty, you suddenly see a straw house, and a wood house. Which one do you go to? wood or straw? ").lower()
+        if house =="wood":
+            food =input(" There is water and a witch in the house. She is nice and gives you food and water. Do you eat it?").lower()
+            if food =="yes":
+                print("You Live! The witch thinks you have a pure heart, and tells you a secret. \n Find the secret door that goes to the tunnel. \n When you leave the hut you notice the straw hut bursting to flames."),lower()
+                door = input("You see three doors appear before you. A gold, a brown, and blue. Which do you chose?").lower()
+                if door == "brown":
+                    print("Good choice. You are on safe ground. You reached the treasure!!")
+                    print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+                elif door == "gold":
+                    print("Bad Choice. You reach the treasure, but are eaten by a Golden Dragon.\n Game Over.")
+                else:
+                    print("You fall into the sea again. You drowned.\n Game Over.")
+            else:
+                print("You starve from hunger and dehydration. You die.\n Game Over.")
+        else:
+            print("You walk into the straw house. The house catches on fire due the burning sun. You burn to death.\n Game Over.")
+    else:
+        print(" You are eaten by a shark. You die. \n Game Over.")
+
+
